@@ -1,0 +1,626 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100vw;
+    background: rgb(238, 174, 202);
+    background: radial-gradient( circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 40vw;
+}
+
+.logo>img {
+    /* background-color: rgb(88, 21, 203); */
+    width: 250px;
+    margin-top: 5px;
+}
+
+.link {
+    width: 60vw;
+    /* background-color: rgb(238, 238, 29); */
+}
+
+.link>ul {
+    list-style-type: none;
+    margin: 5px;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.link>ul>li {
+    /* background-color: rgb(12, 246, 55); */
+    padding: 10px;
+    margin-right: 20px;
+    padding-right: 0px;
+}
+
+.link>ul>li>a {
+    text-decoration: none;
+}
+
+#hb_menu {
+    background-color: rgb(17, 17, 17);
+    width: 50px;
+    height: 50px;
+    padding-top: 3px;
+    display: none;
+}
+
+.link2 {
+    background-color: chocolate;
+    display: none;
+}
+
+#btn {
+    background-color: rgb(19, 4, 23);
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* css for main */
+
+.main {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.son_1 {
+    width: 60%;
+    /* background-color: blue; */
+    text-align: end;
+}
+
+.son_1>img {
+    margin: 20px;
+    margin-right: 50px;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 30px 30px 0px 0px rgba(212, 154, 134, 0.571);
+}
+
+.son_2 {
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+
+.son_2>h2 {
+    /* background-color: brown; */
+    color: rgb(80, 80, 231);
+    margin: 10px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.son_2>p {
+    /* background-color: chartreuse; */
+    margin: 10px;
+    font-size: 20px;
+}
+
+.son_3 {
+    /* background-color: blue; */
+    display: block;
+}
+
+
+/* *{
+  border: 1px solid red;
+} */
+
+
+/*  CSS FOR KIDS  */
+
+.kids {
+    background-color: rgb(100, 192, 193);
+    background-image: url(./images/Atlas.jpeg);
+    margin: auto;
+    width: 95vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.child_1 {
+    width: 60%;
+    /* background-color: aqua; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.child_2 {
+    width: 85vw;
+    margin: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cld-1 {
+    /* background-color: brown; */
+    width: 10vw;
+}
+
+.cld-1>hr {
+    background-color: white;
+    color: blue;
+    height: 4px;
+    border: none;
+}
+
+.cld-2 {
+    /* background-color: rgb(22, 220, 88); */
+    width: 55vw;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+/*  CSS FOR ABOUT  */
+
+.about {
+    width: 95vw;
+    margin: auto;
+    background-image: url(./images/002\ Night\ Fade.png);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about>h5 {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: rgb(74, 70, 70);
+    font-size: 20px;
+}
+
+.about>h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/*  CSS FOR OUR */
+
+.our {
+    padding-top: 40px;
+    /* background-color: aqua; */
+    background-image: url(./images/002\ Night\ Fade.png);
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.m_1 {
+    /* background-color: blueviolet; */
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+.diamond {
+    background-color: coral;
+} */
+
+.diamond>img {
+    /* background-color: aqua; */
+    width: 100px;
+    height: 100px;
+}
+
+.mission {
+    /* background-color: darkolivegreen; */
+    padding: 5px;
+}
+
+.mission>h4 {
+    color: rgb(96, 95, 95);
+    /* background-color: yellow; */
+    font-size: 25px;
+    margin-top: 0%;
+}
+
+.mission>p {
+    /* background-color: chartreuse; */
+    font-size: 15px;
+    font-family: fantasy;
+    margin-top: 0px;
+}
+
+.mission>h6 {
+    /* background-color: blue; */
+    font-size: 17px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+
+
+/* 
+.boy {
+    background-color: brown;
+} */
+
+.boy>img {
+    width: 25vw;
+    height: 450px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+/* CSS FOR m_2 */
+
+.m_2 {
+    /* background-color: coral; */
+    width: 25vw;
+    display: block;
+}
+
+.diamond2>img {
+    /* background-color: chartreuse; */
+    width: 100px;
+    height: 100px;
+}
+
+.mission2 {
+    /* background-color: crimson; */
+    padding: 5px;
+}
+
+.mission2>h4 {
+    /* background-color: chartreuse; */
+    font-size: 25px;
+    margin-top: 0px;
+    color: rgb(96, 95, 95);
+}
+
+.mission2>p {
+    /* background-color: blueviolet; */
+    font-size: 15px;
+    font-family: fantasy;
+    margin-top: 0px;
+}
+
+.mission2>h6 {
+    /* background-color: cornflowerblue; */
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+
+.girl>img {
+    width: 25vw;
+    height: 450px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+/*  CSS FOR  m_3 */
+
+.m_3 {
+    /* background-color: cyan; */
+    width: 35vw;
+}
+
+.m_3>img {
+    /* background-color: rgb(241, 161, 10); */
+    width: 35vw;
+    padding-top: 50px;
+}
+
+
+/*  css for KEY */
+
+.key {
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.key_1>h6 {
+    /* background-color: rgb(237, 172, 53); */
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+}
+
+.key_1>p {
+    /* background-color: brown; */
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+
+/* CSS FOR KEY_2 */
+
+.key_2 {
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.environment_1 {
+    /* background-color: white; */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 20vw;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.environment_1>img {
+    /* background-color: rgb(12, 12, 12); */
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+
+.environment_1>h4 {
+    /* background-color: cadetblue; */
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.environment_1>p {
+    /* background-color: yellowgreen; */
+    padding: 10px;
+    margin: auto;
+}
+
+
+/*  CSS FOR ENVIRONMENT_2 */
+
+.environment_2 {
+    /* background-color: white; */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 20vw;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.environment_2>img {
+    /* background-color: rgb(12, 12, 12); */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+
+.environment_2>h4 {
+    /* background-color: cadetblue; */
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.environment_2>p {
+    /* background-color: yellowgreen; */
+    padding: 10px;
+    margin: auto;
+}
+
+
+/* CSS FOR ENVIRONMENT_3 */
+
+.environment_3 {
+    /* background-color: white; */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 20vw;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.environment_3>img {
+    /* background-color: rgb(12, 12, 12); */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+
+.environment_3>h4 {
+    /* background-color: cadetblue; */
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.environment_3>p {
+    /* background-color: yellowgreen; */
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* CSS FOR ENVIRONMENT_4 */
+
+.environment_4 {
+    /* background-color: white; */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 20vw;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.environment_4>img {
+    /* background-color: rgb(12, 12, 12); */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+
+.environment_4>h4 {
+    /* background-color: cadetblue; */
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.environment_4>p {
+    /* background-color: yellowgreen; */
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+/*  CSS FOR PAINT */
+
+.paint {
+    /* background-color: #B721FF; */
+    background-image: url(./images/Ali.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95vw;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.colour_1 {
+    /* background-color: brown; */
+    width: 55vw;
+    display: flex;
+}
+
+#girl_paint {
+    /* background-color: blue; */
+    width: 30vw;
+    height: 35vw;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+#boy_paint {
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 27vw;
+    color: transparent;
+    width: 23vw;
+    height: 25vw;
+    box-shadow: 0px -23px 15px 37px rgb(10, 224, 239);
+}
+
+.colour_2 {
+    width: 30vw;
+    margin: auto;
+    margin-left: 30px;
+    /* background-color: chartreuse; */
+}
+
+.colour_2>h2 {
+    /* background-color: blue; */
+    color: #076880;
+    font-size: 30px;
+}
+
+.colour_2>p {
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+
+.colour_2>h5 {
+    font-size: 20px;
+    color: rgb(89, 87, 87);
+}
+
+.colour_2>h6 {
+    /* background-color: black; */
+    font-size: 18px;
+    color: rgb(29, 116, 118);
+}
+
+
+/* * {
+    border: 1px solid red;
+} */
+
+
+/*  CSS FOR ENROLL */
+
+.enroll {
+    /* background-color: #B721FF; */
+    width: 95vw;
+    height: 20vw;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.roll_1 {
+    /* margin: auto; */
+    text-align: center;
+    width: 40vw;
+    /* background-color: #21D4FD; */
+    padding: 10px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.roll_2 {
+    /* background-color: rgb(226, 211, 190); */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 17px;
+    /* margin: auto; */
+}
+
+.roll_2>p {
+    /* background-color: blue; */
+    width: 40vw;
+    padding: 10px;
+    margin-right: 35px;
+    margin-top: 0%;
+}
