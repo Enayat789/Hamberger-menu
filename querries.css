@@ -8,7 +8,6 @@
     }
     .logo {
         width: 91vw;
-        /* background-color: blue; */
     }
     .logo>img {
         width: 200px;
@@ -19,13 +18,11 @@
         display: none;
     }
     #hb_menu {
-        /* background-color: darkmagenta; */
         background: rgb(238, 174, 202);
         background: radial-gradient( circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
         width: 30px;
         height: 30px;
         padding: 5px;
-        /* text-align: end; */
         justify-content: end;
         display: block;
     }
@@ -40,7 +37,6 @@
         height: 100%;
     }
     .main {
-        /* background-color: blueviolet; */
         width: 90vw;
         margin: auto;
         background-color: white;
@@ -56,7 +52,6 @@
         text-align: left;
     }
     .son_1>img {
-        /* margin-top: 10px; */
         padding-top: 10px;
         width: 100%;
         height: 100%;
@@ -70,7 +65,6 @@
         margin: auto;
     }
     .son_2>h2 {
-        /* background-color: aqua; */
         margin: 0px;
         padding: 0px;
         font-size: 20px;
@@ -82,55 +76,37 @@
     }
     .about {
         width: 95vw;
-        /* background-color: brown; */
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .about>h3 {
-        /* background-color: aqua; */
         font-size: 20px;
         margin-top: 5px;
     }
     /*  CSS FOR OUR */
     .our {
-        /* background-color: rgb(12, 11, 9); */
-        /* background-image: none; */
         display: flex;
         padding-bottom: 20px;
         flex-direction: column;
-        /* background-image: url(./images/girl\ with\ lemon\ bg\ remove.png); */
-        /* background-repeat: repeat-x; */
     }
     .m_1 {
-        /* background-color: lightgreen; */
-        /* background-color: rgb(241, 219, 184); */
         width: 85vw;
         text-align: center;
         margin: auto;
     }
     .mission {
-        /* background-color: burlywood; */
         padding: 0px;
     }
-    /* .mission>h4 {
-        background-color: aqua;
-        width: 45vw;
-    } */
     .boy>img {
         border-radius: 5px;
         width: 85vw;
         height: 400px;
     }
     .m_2 {
-        /* background-color: rgb(243, 222, 186); */
         width: 85vw;
         text-align: center;
         margin: auto;
     }
-    /* .mission2 {
-        background-color: aqua;
-        padding: 0px;
-    } */
     .girl>img {
         border-radius: 5px;
         width: 85vw;
@@ -162,16 +138,13 @@
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     }
     .environment_1>h4 {
-        /* background-color: rgb(234, 23, 220); */
         font-size: 20px;
     }
     .environment_1>p {
-        /* background-color: darkcyan; */
         padding-bottom: 20px;
     }
     /* CSS FOR ENVIRONMENT_2 */
     .environment_2 {
-        /* background-color: rgb(251, 237, 240); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 90vw;
@@ -180,22 +153,18 @@
         margin-bottom: 15px;
     }
     .environment_2>img {
-        /* background-color: rgb(7, 7, 8); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 100px;
     }
     .environment_2>h4 {
-        /* background-color: rgb(234, 23, 220); */
         font-size: 20px;
     }
     .environment_2>p {
-        /* background-color: darkcyan; */
         padding-bottom: 20px;
     }
     /*  CSS FOR ENVIRONMENT_3 */
     .environment_3 {
-        /* background-color: rgb(251, 237, 240); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 90vw;
@@ -203,22 +172,18 @@
         margin-bottom: 15px;
     }
     .environment_3>img {
-        /* background-color: rgb(6, 6, 6); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 100px;
     }
     .environment_3>h4 {
-        /* background-color: rgb(234, 23, 220); */
         font-size: 20px;
     }
     .environment_3>p {
-        /* background-color: darkcyan; */
         padding-bottom: 20px;
     }
     /* QUERRIES FOR ENVIRONMENT_4 */
     .environment_4 {
-        /* background-color: rgb(201, 24, 63); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 90vw;
@@ -226,38 +191,28 @@
         margin-bottom: 20px;
     }
     .environment_4>img {
-        /* background-color: rgb(4, 4, 4); */
         background-color: #d9afd9;
         background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
         width: 100px;
     }
     .environment_4>h4 {
-        /* background-color: rgb(234, 23, 220); */
         font-size: 20px;
     }
     .environment_4>p {
-        /* background-color: darkcyan; */
-        /* width: 80vw; */
         padding-bottom: 20px;
     }
     /*  */
     /*  querry FOR PAINT  */
     .paint {
-        /* background-color: rgb(0, 8, 255); */
         background-image: none;
         display: flex;
         flex-direction: column;
     }
-    /* * {
-        border: 1px solid red;
-    } */
     .colour_1 {
-        /* background-color: #e00fe0; */
         width: 100%;
         padding-bottom: 10px;
     }
     #girl_paint {
-        /* background-color: darkred; */
         width: auto;
         border-radius: 0px;
     }
@@ -267,27 +222,22 @@
         border-radius: 0%;
     }
     .colour_2 {
-        /* background-color: blueviolet; */
         width: 100%;
         margin-left: 0%;
         text-align: center;
     }
     .colour_2>h2 {
-        /* background-color: #D9AFD9; */
         font-size: 20px;
     }
     .colour_2>p {
-        /* background-color: #D9AFD9; */
         width: 85vw;
         font-size: 15px;
         margin: auto;
     }
     .colour_2>h5 {
-        /* background-color: #D9AFD9; */
         font-size: 15px;
     }
     .colour_2>h6 {
-        /* background-color: #D9AFD9; */
         font-size: 10px;
     }
     /* QUERRIES FOR ENROLL */
@@ -324,12 +274,10 @@
     }
     /* *** */
     .jump_1 {
-        /* background-color: aqua; */
         display: flex;
         width: 100%;
         height: auto;
         padding-top: 10px;
-        /* padding: 10px; */
         margin-right: 0%;
         text-align: center;
         font-size: 10px;
@@ -362,7 +310,6 @@
     }
     /******/
     .jump_3 {
-        /* background-color: brown; */
         width: 100%;
         height: auto;
         padding-top: 10px;
@@ -389,14 +336,12 @@
 @media screen and (min-width: 421px) and (max-width: 700px) {
     .container {
         width: 100vw;
-        /* background-color: rgb(167, 43, 43); */
     }
     .logo {
         width: 94vw;
         background-color: rgb(233, 233, 247);
     }
     .logo>img {
-        /* background-color: rgb(192, 180, 171); */
         width: 200px;
         height: 30px;
         margin-left: 5px;
@@ -425,7 +370,6 @@
     .main {
         background-color: white;
         width: 90vw;
-        /* border: 2px solid black; */
         margin: auto;
     }
     .son_1 {
@@ -448,24 +392,19 @@
     }
     /*  OUR  */
     .our {
-        /* width: 80vw; */
         display: flex;
         background-color: rgb(246, 177, 177);
     }
     .m_1 {
         width: 45vw;
-        /* background-color: aqua; */
         margin: auto;
-        /* text-align: center; */
     }
     .boy>img {
-        /* background-color: blue; */
         width: 45vw;
     }
     .m_2 {
         margin: auto;
         width: 45vw;
-        /* background-color: cadetblue; */
     }
     .girl>img {
         width: 45vw;
@@ -475,8 +414,6 @@
     }
     /* Querry For KEY */
     .key {
-        /* background-color: rgb(219, 47, 185); */
-        /* background-image: none; */
         width: 95vw;
     }
     .key_2 {
@@ -497,21 +434,15 @@
     }
     /* *** */
     .paint {
-        /* background-color: rgb(0, 8, 255); */
         background-image: none;
         display: flex;
         flex-direction: column;
     }
-    /* * {
-        border: 1px solid red;
-    } */
     .colour_1 {
-        /* background-color: #e00fe0; */
         width: 100%;
         padding-bottom: 10px;
     }
     #girl_paint {
-        /* background-color: darkred; */
         width: auto;
         border-radius: 0px;
     }
@@ -521,27 +452,22 @@
         border-radius: 0%;
     }
     .colour_2 {
-        /* background-color: blueviolet; */
         width: 100%;
         margin-left: 0%;
         text-align: center;
     }
     .colour_2>h2 {
-        /* background-color: #D9AFD9; */
         font-size: 20px;
     }
     .colour_2>p {
-        /* background-color: #D9AFD9; */
         width: 85vw;
         font-size: 15px;
         margin: auto;
     }
     .colour_2>h5 {
-        /* background-color: #D9AFD9; */
         font-size: 15px;
     }
     .colour_2>h6 {
-        /* background-color: #D9AFD9; */
         font-size: 10px;
     }
     /* QUERRIES FOR ENROLL */
@@ -579,12 +505,10 @@
     }
     /* *** */
     .jump_1 {
-        /* background-color: aqua; */
         display: flex;
         width: 100%;
         height: auto;
         padding-top: 10px;
-        /* padding: 10px; */
         margin-right: 0%;
         text-align: center;
         font-size: 10px;
@@ -617,7 +541,6 @@
     }
     /******/
     .jump_3 {
-        /* background-color: brown; */
         width: 100%;
         height: auto;
         padding-top: 10px;
@@ -646,16 +569,13 @@
         display: none;
     }
     .our {
-        /* background-color: rgb(103, 103, 200); */
         display: flex;
     }
     .m_1 {
         width: 45vw;
-        /* background-color: blueviolet; */
     }
     .m_2 {
         width: 45vw;
-        /* background-color: burlywood; */
     }
     .boy>img {
         width: 45vw;
