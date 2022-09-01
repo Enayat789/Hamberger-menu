@@ -16,27 +16,23 @@ body {
 }
 
 .logo>img {
-    /* background-color: rgb(88, 21, 203); */
     width: 250px;
     margin-top: 5px;
 }
 
 .link {
     width: 60vw;
-    /* background-color: rgb(238, 238, 29); */
 }
 
 .link>ul {
     list-style-type: none;
     margin: 5px;
-    /* background-color: chocolate; */
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
 .link>ul>li {
-    /* background-color: rgb(12, 246, 55); */
     padding: 10px;
     margin-right: 20px;
     padding-right: 0px;
@@ -71,7 +67,6 @@ body {
 /* css for main */
 
 .main {
-    /* background-color: aqua; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -79,7 +74,6 @@ body {
 
 .son_1 {
     width: 60%;
-    /* background-color: blue; */
     text-align: end;
 }
 
@@ -94,11 +88,9 @@ body {
 
 .son_2 {
     width: 40%;
-    /* background-color: blueviolet; */
 }
 
 .son_2>h2 {
-    /* background-color: brown; */
     color: rgb(80, 80, 231);
     margin: 10px;
     margin-top: 60px;
@@ -107,20 +99,13 @@ body {
 }
 
 .son_2>p {
-    /* background-color: chartreuse; */
     margin: 10px;
     font-size: 20px;
 }
 
 .son_3 {
-    /* background-color: blue; */
     display: block;
 }
-
-
-/* *{
-  border: 1px solid red;
-} */
 
 
 /*  CSS FOR KIDS  */
@@ -138,7 +123,6 @@ body {
 
 .child_1 {
     width: 60%;
-    /* background-color: aqua; */
     color: white;
     text-align: center;
     font-size: 25px;
@@ -148,14 +132,12 @@ body {
 .child_2 {
     width: 85vw;
     margin: auto;
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .cld-1 {
-    /* background-color: brown; */
     width: 10vw;
 }
 
@@ -167,7 +149,6 @@ body {
 }
 
 .cld-2 {
-    /* background-color: rgb(22, 220, 88); */
     width: 55vw;
     padding-left: 20px;
     color: white;
@@ -206,7 +187,6 @@ body {
 
 .our {
     padding-top: 40px;
-    /* background-color: aqua; */
     background-image: url(./images/002\ Night\ Fade.png);
     width: 95vw;
     margin: auto;
@@ -217,55 +197,37 @@ body {
 }
 
 .m_1 {
-    /* background-color: blueviolet; */
     width: 25vw;
     display: flex;
     flex-direction: column;
 }
 
-
-/* 
-.diamond {
-    background-color: coral;
-} */
-
 .diamond>img {
-    /* background-color: aqua; */
     width: 100px;
     height: 100px;
 }
 
 .mission {
-    /* background-color: darkolivegreen; */
     padding: 5px;
 }
 
 .mission>h4 {
     color: rgb(96, 95, 95);
-    /* background-color: yellow; */
     font-size: 25px;
     margin-top: 0%;
 }
 
 .mission>p {
-    /* background-color: chartreuse; */
     font-size: 15px;
     font-family: fantasy;
     margin-top: 0px;
 }
 
 .mission>h6 {
-    /* background-color: blue; */
     font-size: 17px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: palevioletred;
 }
-
-
-/* 
-.boy {
-    background-color: brown;
-} */
 
 .boy>img {
     width: 25vw;
@@ -278,38 +240,32 @@ body {
 /* CSS FOR m_2 */
 
 .m_2 {
-    /* background-color: coral; */
     width: 25vw;
     display: block;
 }
 
 .diamond2>img {
-    /* background-color: chartreuse; */
     width: 100px;
     height: 100px;
 }
 
 .mission2 {
-    /* background-color: crimson; */
     padding: 5px;
 }
 
 .mission2>h4 {
-    /* background-color: chartreuse; */
     font-size: 25px;
     margin-top: 0px;
     color: rgb(96, 95, 95);
 }
 
 .mission2>p {
-    /* background-color: blueviolet; */
     font-size: 15px;
     font-family: fantasy;
     margin-top: 0px;
 }
 
 .mission2>h6 {
-    /* background-color: cornflowerblue; */
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: palevioletred;
@@ -326,12 +282,10 @@ body {
 /*  CSS FOR  m_3 */
 
 .m_3 {
-    /* background-color: cyan; */
     width: 35vw;
 }
 
 .m_3>img {
-    /* background-color: rgb(241, 161, 10); */
     width: 35vw;
     padding-top: 50px;
 }
@@ -348,14 +302,12 @@ body {
 }
 
 .key_1>h6 {
-    /* background-color: rgb(237, 172, 53); */
     font-size: 20px;
     margin-bottom: 0px;
     padding-top: 40px;
 }
 
 .key_1>p {
-    /* background-color: brown; */
     margin-top: 15px;
     font-size: 35px;
 }
@@ -364,7 +316,6 @@ body {
 /* CSS FOR KEY_2 */
 
 .key_2 {
-    /* background-color: coral; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -372,7 +323,6 @@ body {
 }
 
 .environment_1 {
-    /* background-color: white; */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 20vw;
@@ -383,8 +333,6 @@ body {
 }
 
 .environment_1>img {
-    /* background-color: rgb(12, 12, 12); */
-    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 150px;
@@ -393,13 +341,11 @@ body {
 }
 
 .environment_1>h4 {
-    /* background-color: cadetblue; */
     font-size: 20px;
     color: palevioletred;
 }
 
 .environment_1>p {
-    /* background-color: yellowgreen; */
     padding: 10px;
     margin: auto;
 }
@@ -408,7 +354,6 @@ body {
 /*  CSS FOR ENVIRONMENT_2 */
 
 .environment_2 {
-    /* background-color: white; */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 20vw;
@@ -419,7 +364,6 @@ body {
 }
 
 .environment_2>img {
-    /* background-color: rgb(12, 12, 12); */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 150px;
@@ -428,13 +372,11 @@ body {
 }
 
 .environment_2>h4 {
-    /* background-color: cadetblue; */
     font-size: 20px;
     color: palevioletred;
 }
 
 .environment_2>p {
-    /* background-color: yellowgreen; */
     padding: 10px;
     margin: auto;
 }
@@ -443,7 +385,6 @@ body {
 /* CSS FOR ENVIRONMENT_3 */
 
 .environment_3 {
-    /* background-color: white; */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 20vw;
@@ -454,7 +395,6 @@ body {
 }
 
 .environment_3>img {
-    /* background-color: rgb(12, 12, 12); */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 150px;
@@ -463,13 +403,11 @@ body {
 }
 
 .environment_3>h4 {
-    /* background-color: cadetblue; */
     font-size: 20px;
     color: palevioletred;
 }
 
 .environment_3>p {
-    /* background-color: yellowgreen; */
     margin: auto;
     padding: 10px;
 }
@@ -478,7 +416,6 @@ body {
 /* CSS FOR ENVIRONMENT_4 */
 
 .environment_4 {
-    /* background-color: white; */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 20vw;
@@ -489,7 +426,6 @@ body {
 }
 
 .environment_4>img {
-    /* background-color: rgb(12, 12, 12); */
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     width: 150px;
@@ -498,13 +434,11 @@ body {
 }
 
 .environment_4>h4 {
-    /* background-color: cadetblue; */
     font-size: 20px;
     color: palevioletred;
 }
 
 .environment_4>p {
-    /* background-color: yellowgreen; */
     margin: auto;
     padding: 10px;
     margin-bottom: 30px;
@@ -514,7 +448,6 @@ body {
 /*  CSS FOR PAINT */
 
 .paint {
-    /* background-color: #B721FF; */
     background-image: url(./images/Ali.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -527,13 +460,11 @@ body {
 }
 
 .colour_1 {
-    /* background-color: brown; */
     width: 55vw;
     display: flex;
 }
 
 #girl_paint {
-    /* background-color: blue; */
     width: 30vw;
     height: 35vw;
     margin-top: 10px;
@@ -556,17 +487,14 @@ body {
     width: 30vw;
     margin: auto;
     margin-left: 30px;
-    /* background-color: chartreuse; */
 }
 
 .colour_2>h2 {
-    /* background-color: blue; */
     color: #076880;
     font-size: 30px;
 }
 
 .colour_2>p {
-    /* background-color: aqua; */
     font-size: 20px;
 }
 
@@ -576,21 +504,14 @@ body {
 }
 
 .colour_2>h6 {
-    /* background-color: black; */
     font-size: 18px;
     color: rgb(29, 116, 118);
 }
 
 
-/* * {
-    border: 1px solid red;
-} */
-
-
 /*  CSS FOR ENROLL */
 
 .enroll {
-    /* background-color: #B721FF; */
     width: 95vw;
     height: 20vw;
     margin: auto;
@@ -601,23 +522,19 @@ body {
 .roll_1 {
     text-align: center;
     width: 40vw;
-    /* background-color: #21D4FD; */
     padding: 10px;
     padding-top: 60px;
     font-size: 20px;
 }
 
 .roll_2 {
-    /* background-color: rgb(226, 211, 190); */
     display: flex;
     flex-direction: row;
     justify-content: end;
     font-size: 17px;
-    /* margin: auto; */
 }
 
 .roll_2>p {
-    /* background-color: blue; */
     width: 40vw;
     padding: 10px;
     margin-right: 35px;
@@ -628,14 +545,12 @@ body {
 /*  CSS FOR JUMP */
 
 .jump {
-    /* background-color: #B721FF; */
     width: 95vw;
     margin: auto;
     padding: 20px;
     padding-top: 60px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
 }
@@ -651,35 +566,18 @@ body {
     padding-top: 50px;
     margin-right: 30px;
     text-align: right;
-    /* background-color: rgb(63, 158, 46); */
     justify-content: space-between;
 }
-
-
-/* 
-.funny {
-    background-color: violet;
-}
-
-.fulfill {
-    background-color: brown;
-}
-
-.special {
-    background-color: #ddda45;
-} */
 
 
 /* ****** */
 
 .jump_2 {
     width: 30vw;
-    /* background-color: #ddda45; */
     text-align: center;
 }
 
 .jump_2>p {
-    /* background-color: steelblue; */
     font-size: 20px;
     margin: 0%;
     color: rgb(82, 81, 81);
@@ -688,7 +586,6 @@ body {
 .jump_2>h1 {
     margin-top: 10px;
     font-size: 30px;
-    /* background-color: #766daf; */
 }
 
 .jump_2>img {
@@ -696,7 +593,6 @@ body {
     /* height: 35vw; */
     margin-bottom: 30px;
     background-image: url(./images/Ali.jpeg);
-    /* background-color: aqua; */
 }
 
 
@@ -710,20 +606,4 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    /* background-color: tomato; */
 }
-
-
-/* 
-.professional {
-    background-color: #4f0571;
-}
-
-.fully {
-    background-color: #571e71;
-    
-}
-
-.transport {
-    background-color: yellowgreen;
-} */
