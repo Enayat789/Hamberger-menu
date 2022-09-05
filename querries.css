@@ -328,6 +328,10 @@
     .transport {
         margin-left: 10px;
     }
+    /* ***** */
+    .relax {
+        display: none;
+    }
 }
 
 
