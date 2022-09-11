@@ -677,3 +677,71 @@ body {
     padding-right: 20px;
     padding-top: 30px;
 }
+
+
+/*  CSS FOR LOCATE */
+
+.locate {
+    /* background-color: #21D4FD; */
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 20vw;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    /* background-color: #3721ff; */
+    width: 30vw;
+    text-align: center;
+}
+
+.location>img {
+    background-color: #B721FF;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.location>h4 {
+    /* background-color: #5f55b2; */
+    font-size: 15px;
+    /* font-style: oblique; */
+    font-style: italic;
+}
+
+.phone {
+    /* background-color: #fd6e21; */
+    width: 30vw;
+    text-align: center;
+}
+
+.phone>img {
+    background-color: rgba(222, 146, 3, 0.983);
+    width: 70px;
+    border-radius: 40px;
+}
+
+.phone>h4 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.message {
+    /* background-color: blue; */
+    width: 30vw;
+    text-align: center;
+}
+
+.message>img {
+    background-color: #7ed6ec;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.message>h4 {
+    font-size: 15px;
+    font-style: italic;
+}

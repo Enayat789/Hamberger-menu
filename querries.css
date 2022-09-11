@@ -332,6 +332,9 @@
     .relax {
         display: none;
     }
+    .facility {
+        display: none;
+    }
 }
 
 
@@ -563,6 +566,12 @@
     .transport {
         margin-left: 10px;
     }
+    .facility {
+        display: none;
+    }
+    .relax {
+        display: none;
+    }
 }
 
 
@@ -608,6 +617,12 @@
     .roll_2>p {
         width: 45vw;
         margin-right: 0%;
+    }
+    .facility {
+        display: none;
+    }
+    .relax {
+        display: none;
     }
     /* **** */
 }
