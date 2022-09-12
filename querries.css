@@ -335,6 +335,36 @@
     .facility {
         display: none;
     }
+    /* querries for locate */
+    .locate {
+        height: auto;
+        justify-content: space-between;
+    }
+    .location>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .location>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
+    .phone>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .phone>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
+    .message>img {
+        /* background-color: blue; */
+        width: 40px;
+        margin-top: 5px;
+    }
+    .message>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
 }
 
 
@@ -572,6 +602,36 @@
     .relax {
         display: none;
     }
+    /* querries for locate */
+    .locate {
+        height: auto;
+        justify-content: space-between;
+    }
+    .location>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .location>h4 {
+        /* background-color: yellow; */
+        font-size: 10px;
+    }
+    .phone>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .phone>h4 {
+        /* background-color: yellow; */
+        font-size: 10px;
+    }
+    .message>img {
+        /* background-color: blue; */
+        width: 40px;
+        margin-top: 5px;
+    }
+    .message>h4 {
+        /* background-color: yellow; */
+        font-size: 10px;
+    }
 }
 
 
@@ -625,6 +685,124 @@
         display: none;
     }
     /* **** */
+    /* QUERRIES FOR ENROLL */
+    .enroll {
+        background-image: url(./images/178\ Gagarin\ View.png);
+        height: auto;
+        padding-bottom: 0%;
+        margin-top: 0%;
+    }
+    .roll_1 {
+        text-align: left;
+        width: auto;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 0%;
+    }
+    .roll_2 {
+        font-size: 11px;
+    }
+    .roll_2>p {
+        width: 45vw;
+        margin-right: 0%;
+    }
+    /* QUERRY FOR JUMP */
+    .jump {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #d9afd9;
+        align-items: initial;
+        padding: 0%;
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+    /* *** */
+    .jump_1 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        margin-right: 0%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .funny {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .special {
+        text-align: right;
+        padding-right: 10px;
+    }
+    /* ** */
+    .jump_2 {
+        background-image: url(./images/Atlas.jpeg);
+        margin-top: 10px;
+        width: 100%;
+    }
+    .jump_2>p {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .jump_2>h1 {
+        font-size: 20px;
+        margin: 0%;
+    }
+    .jump_2>img {
+        background-image: none;
+        margin-bottom: 10px;
+    }
+    /******/
+    .jump_3 {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0%;
+        font-size: 10px;
+    }
+    .professional {
+        margin-right: 10px;
+        text-align: end;
+    }
+    .fully {
+        margin: auto;
+        text-align: center;
+    }
+    .transport {
+        margin-left: 10px;
+    }
+    /* querries for locate */
+    .locate {
+        height: auto;
+        justify-content: space-between;
+    }
+    .location>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .location>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
+    .phone>img {
+        /* background-color: blue; */
+        width: 40px;
+    }
+    .phone>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
+    .message>img {
+        /* background-color: blue; */
+        width: 40px;
+        margin-top: 5px;
+    }
+    .message>h4 {
+        /* background-color: yellow; */
+        font-size: 7px;
+    }
 }
 
 
