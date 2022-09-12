@@ -755,13 +755,12 @@ body {
     width: 95vw;
     height: 20vw;
     margin: auto;
+    margin-top: 20px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .line {
     padding-top: 50px;
-    /* background-color: #B721FF; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -770,27 +769,23 @@ body {
 .line-1>h3,
 .line-2>h3,
 .line-3>h3 {
-    /* background-color: #21D4FD; */
     font-size: 15px;
 }
 
 .line-1>p,
 .line-2>p,
 .line-3>p {
-    /* background-color: blue; */
     font-size: 15px;
     letter-spacing: 2px;
     font-style: italic;
 }
 
 .icon_line {
-    /* background-color: brown; */
     text-align: center;
     margin-top: 50px;
 }
 
 .icon_line>img {
-    /* background-color: violet; */
     width: 25px;
     height: 25px;
     padding: 5px;

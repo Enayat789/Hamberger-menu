@@ -365,6 +365,45 @@
         /* background-color: yellow; */
         font-size: 7px;
     }
+    /*  QUERRIES FOR MLINE */
+    .mline {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        background-color: violet;
+        width: 95vw;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .line {
+        /* padding-top: 50px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .line-1>h3,
+    .line-2>h3,
+    .line-3>h3 {
+        font-size: 10px;
+    }
+    .line-1>p,
+    .line-2>p,
+    .line-3>p {
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+    .icon_line {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .icon_line>img {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border-radius: 10px;
+    }
 }
 
 
